@@ -13,8 +13,8 @@ from telegram import ParseMode
 
 
 # initializing the bot with API
-bot = Bot("5422958978:AAGaoowQjrHa312Mcl0wD3qzFOMDGkNbQOk")
-updater = Updater("5422958978:AAGaoowQjrHa312Mcl0wD3qzFOMDGkNbQOk",
+bot = Bot("Insert your bot token")
+updater = Updater("Insert your bot token",
                   use_context=True)
 
 def start(update: Update, context: CallbackContext):
